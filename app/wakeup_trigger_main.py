@@ -191,7 +191,7 @@ def main():
     wakeup_engine.link(dueros)
     wakeup_engine.set_wakeup_detector(snowboy)
 
-    prompt_tone_player = PromptTone()
+    prompt_tone_player = PromptTone(player)
 
     def wakeup():
         '''
